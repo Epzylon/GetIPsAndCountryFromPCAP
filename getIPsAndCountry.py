@@ -2,7 +2,6 @@
 
 from scapy.all import rdpcap
 from GeoIP import new, GEOIP_MEMORY_CACHE
-import GeoIP
 
 db = new(GeoIP.GEOIP_MEMORY_CACHE)
 
